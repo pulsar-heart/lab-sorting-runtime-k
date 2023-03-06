@@ -144,6 +144,8 @@ and copy/paste the resulting table into this README file below this line.
 | len(xs) = 2**20    |   4.05e-01 | 6.85e+00 | 8.74e+00 |
 | len(xs) = 2**21    |   1.04e+00 | 1.44e+01 | 1.92e+01 |
 | len(xs) = 2**22    |   2.12e+00 | 2.98e+01 | 4.27e+01 |
+
+
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
 but python's built-in sorting function uses lots of optimization tricks to achieve this extra speedup.
